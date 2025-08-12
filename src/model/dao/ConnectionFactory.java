@@ -10,8 +10,8 @@ public class ConnectionFactory {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             String url = "";
-            final String USER = "";
-            final String PASS = "";
+            final String USER = ""; // Your user here
+            final String PASS = ""; // Your password
             con = DriverManager.getConnection(url, USER, PASS);
             System.out.println("Conexão aberta.");
         } catch (ClassNotFoundException e) {

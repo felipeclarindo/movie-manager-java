@@ -1,44 +1,58 @@
+🌍 [Leia em Português](README.pt-BR.md)
+
 # Movie Manager
 
-Movie é uma aplicação completo desenvolvida em Java para explorar e gerenciar filmes! Ele oferece uma API robusta para acessar informações de filmes, além de uma interface (view) para visualização intuitiva dos dados. Ideal para quem quer descobrir novos filmes, ver detalhes, e organizar suas preferências!
+CLI Application to manage movies with an api developed in Java.
 
-## Funcionalidades
+## Functionalities
 
-- Manipulação de Filmes (Post, Update, Get, Delete)
-- Interface gráfica: Visualização intuitiva das informações de filmes.
-- Detalhes dos filmes: Exibe informações detalhadas como elenco, sinopse e data de lançamento.
+- Manage movies (Post, Update, Get and Delete)
+- CLI Interface to manage the movies and view the changes.
+- Movies descriptions.
 
-## Técnologias Utilizadas
 
-- Oracle Database
-- Java
+## Technologies used
 
-## Como usar
+- `Java` - Language used to development.
+- `Oracle Database` - Virtual Assistant Integration
+- `Maven` - Build automation and dependency management tool for the api.
 
-1. Clone o repositório para o seu computador:
+## Requirements for installation
+
+Make sure you have the `Java Development Kit` installed in your machine for run the project.
+
+## Steps for installation and run:
+
+1. Clone the repository:
 
 ```bash
-   git clone https://github.com/felipeclarindo/movie-manager.git
+git clone https://github.com/felipeclarindo/movie-manager-java.git
 ```
 
-2. Altere as informações da conexão em **model/dao/ConnectionFactory.java**
+2. Enter the directory of api:
 
-3. Rode o arquivo view/FilmeView.java
+```bash
+cd movie-manager-java
+```
 
-4. Siga as instruções da interface para manipular os filmes.
+3. Change the database login credencials in the file [src/model/dao/ConnectionFactory.java](./src/model/dao/ConnectionFactory.java)
 
-## Contribuição
+4. Run the file located in [src/view/FilmeView.java](./src/view/FilmeView.java).
 
-Contribuições são bem-vindas! Se você tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+5. Follow the cli instructions to manage movies.
 
-## Autor
+## Contribution
 
-**Felipe Clarindo**
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## Author
+
+### **Felipe Clarindo**
 
 - [LinkedIn](https://www.linkedin.com/in/felipeclarindo)
 - [Instagram](https://www.instagram.com/lipethecoder)
 - [GitHub](https://github.com/felipeclarindo)
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
+This project is licensed under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).

@@ -1,10 +1,3 @@
-// Sala 1TDSPG
-// Felipe Clarindo - RM554547
-// Felipe Fidelix - RM556426
-// Jennifer Suzuki - RM554661
-// Samir Neto - RM557260
-// Victor Gigante - RM555059
-
 package controller;
 
 import java.util.ArrayList;
